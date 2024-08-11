@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dicstionary</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Dictionary</h1>
+      <p class="text">
+        This dictionary contains words and their meanings. You can search for a
+        word by typing it in the search bar below..
+      </p>
+      <div>
+        <input type="text" id="searchInput" placeholder="Search..." />
+        <button class="searchBtn" onclick="serchText()">Search</button>
+        <audio id="audioPlayer" style="display: none" controls src=""></audio>
+        <div id="dictionaryContainer"></div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
